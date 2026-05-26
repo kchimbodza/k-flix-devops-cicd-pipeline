@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k-flix-db
+  namespace: k-flix
+data:
+  db.json: |
+    {
+      "users": [
+        {
+          "name": "kc",
+          "email": "k@k.com",
+          "password": "123456",
+          "id": "2I1pxhMALW0"
+        },
+        {
+          "name": "tom",
+          "email": "tom@tom.com",
+          "password": "123456",
+          "id": "eUA-WW4SynI"
+        },
+        {
+          "name": "Ron Don",
+          "email": "ron@don.com",
+          "password": "123456",
+          "id": "lqx-CsmgfpE"
+        },
+        {
+          "name": "Mark",
+          "email": "mark@mark.com",
+          "password": "123456",
+          "id": "QxQckSb8rWQ"
+        }
+      ],
+      "favourites": [],
+      "watchlists": [],
+      "watchlistItems": []
+    }

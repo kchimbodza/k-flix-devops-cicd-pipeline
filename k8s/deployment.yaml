@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k-flix
+  namespace: k-flix
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k-flix
+  template:
+    metadata:
+      labels:
+        app: k-flix
+    spec:
+      initContainers:
+        - name: init-db
+          image: busybox
+          command: ['sh', '-c', 'cp /config/db.json /data/db.json']
+          volumeMounts:
+            - name: config-volume
+              mountPath: /config
+            - name: db-volume
+              mountPath: /data
+
+      containers:
+        - name: k-flix
+          image: 515310961810.dkr.ecr.us-east-2.amazonaws.com/k-flix:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "50m"
+            limits:
+              memory: "128Mi"
+              cpu: "100m"
+
+        - name: json-server
+          image: vimagick/json-server
+          args: ["--watch", "/data/db.json", "--port", "3001", "--host", "0.0.0.0"]
+          ports:
+            - containerPort: 3001
+          volumeMounts:
+            - name: db-volume
+              mountPath: /data
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "50m"
+            limits:
+              memory: "128Mi"
+              cpu: "100m"
+
+      volumes:
+        - name: config-volume
+          configMap:
+            name: k-flix-db
+        - name: db-volume
+          emptyDir: {}
