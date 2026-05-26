@@ -148,7 +148,7 @@ k-flix-react-app/
 **EKS Cluster:** `k-flix-cluster` in `us-east-2`  
 **Node group:** 2x `t3.medium` (supports up to 17 pods each)  
 **VPC:** Custom VPC with public/private subnets across 2 AZs  
-**ECR:** `515310961810.dkr.ecr.us-east-2.amazonaws.com/k-flix`
+**ECR:** `<AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/k-flix`
 
 > The cluster is torn down after every demo session and rebuilt on demand using `deploy.sh` to minimize AWS costs (~$0.28/hr while running).
 
@@ -197,14 +197,44 @@ t3.micro supports a maximum of 4 pods due to AWS ENI limits. The full monitoring
 
 ## Screenshots
 
-_See `/docs/screenshots/` for:_
-- GitHub Actions pipeline — all stages passing
-- Trivy scan results
-- SonarCloud quality gate
-- ArgoCD UI — Synced & Healthy
-- Grafana Kubernetes dashboard
-- Slack alert notifications
-- Self-healing pod rescheduling terminal output
+### CI Pipeline — GitHub Actions All Stages Green
+![GitHub Actions Pipeline](docs/screenshots/SS-06.png)
+
+### Vitest — Tests Passing
+![Vitest Tests](docs/screenshots/SS-02.png)
+
+### SonarCloud — Quality Gate Passed
+![SonarCloud](docs/screenshots/SS-05.png)
+
+### Docker Image Pushed to ECR
+![ECR Push](docs/screenshots/SS-08.png)
+
+### Terraform Plan — 52 Resources
+![Terraform Plan](docs/screenshots/SS-10.png)
+
+### EKS Cluster Live
+![EKS Cluster](docs/screenshots/SS-11.png)
+
+### ArgoCD — Synced & Healthy
+![ArgoCD](docs/screenshots/SS-14.png)
+
+### ArgoCD Deployment Tree
+![ArgoCD Tree](docs/screenshots/SS-16.png)
+
+### K-Flix Live on EKS
+![K-Flix Live](docs/screenshots/SS-17.png)
+
+### App Working — Login & Watchlist
+![App Working](docs/screenshots/SS-18.png)
+
+### Grafana — Kubernetes Metrics Dashboard
+![Grafana](docs/screenshots/SS-19.png)
+
+### Slack — Alerts Firing
+![Slack Alerts](docs/screenshots/SS-20.png)
+
+### Self-Healing — Pod Deleted and Rescheduled
+![Self Healing](docs/screenshots/SS-21.png)
 
 ---
 
