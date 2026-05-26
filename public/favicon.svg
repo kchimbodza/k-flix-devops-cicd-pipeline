@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark background matching K-Flix brand -->
+  <rect width="32" height="32" rx="5" fill="#111111"/>
+
+  <!-- Orange accent bar (left edge) -->
+  <rect x="0" y="0" width="4" height="32" rx="2" fill="#F97316"/>
+
+  <!-- K in orange, F in white -->
+  <text x="7" y="23" font-family="Arial Black, Impact, sans-serif" font-size="19" font-weight="900" fill="#F97316">K</text>
+  <text x="20" y="23" font-family="Arial Black, Impact, sans-serif" font-size="19" font-weight="900" fill="#ffffff">F</text>
+</svg>

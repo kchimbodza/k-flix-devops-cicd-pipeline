@@ -11,3 +11,5 @@ alertmanager-slack.yaml
 # OS
 .DS_Store
 *.zip
+node_modules/
+dist/

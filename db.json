@@ -1,0 +1,2387 @@
+{
+  "users": [
+    {
+      "name": "kc",
+      "email": "k@k.com",
+      "password": "123456",
+      "id": "2I1pxhMALW0"
+    },
+    {
+      "name": "tom",
+      "email": "tom@tom.com",
+      "password": "123456",
+      "id": "eUA-WW4SynI"
+    },
+    {
+      "name": "Ron Don",
+      "email": "ron@don.com",
+      "password": "123456",
+      "id": "lqx-CsmgfpE"
+    },
+    {
+      "name": "Mark",
+      "email": "mark@mark.com",
+      "password": "123456",
+      "id": "QxQckSb8rWQ"
+    }
+  ],
+  "favourites": [
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 1115544,
+      "adult": false,
+      "backdrop_path": "/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
+      "id": "Zn1yC5lsrtk",
+      "title": "Mike & Nick & Nick & Alice",
+      "original_title": "Mike & Nick & Nick & Alice",
+      "overview": "Two gangsters and the woman they love try to survive the most dangerous night of their lives. As if that wasn’t enough, there’s one wild ingredient added to the mix: a time machine.",
+      "poster_path": "/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        35,
+        878,
+        80
+      ],
+      "popularity": 162.4864,
+      "release_date": "2026-03-14",
+      "video": false,
+      "vote_average": 6.855,
+      "vote_count": 32
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 1226863,
+      "adult": false,
+      "backdrop_path": "/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
+      "id": "kuOSVdN6FJA",
+      "title": "The Super Mario Galaxy Movie",
+      "original_title": "The Super Mario Galaxy Movie",
+      "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+      "poster_path": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        10751,
+        14,
+        35,
+        12,
+        16
+      ],
+      "popularity": 54.054,
+      "release_date": "2026-04-01",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 2
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 687163,
+      "adult": false,
+      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "id": "mrsT1zD1-bU",
+      "title": "Project Hail Mary",
+      "original_title": "Project Hail Mary",
+      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction… but an unexpected friendship means he may not have to do it alone.",
+      "poster_path": "/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "popularity": 298.5383,
+      "release_date": "2026-03-15",
+      "video": false,
+      "vote_average": 8.18,
+      "vote_count": 605
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 1630433,
+      "adult": false,
+      "backdrop_path": "/qbbx3NDw6FrtQSrKdxn9n72xJzO.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/81760518",
+      "id": "TeFHPhUid8c",
+      "imdb_id": "tt39744394",
+      "origin_country": [
+        "TH"
+      ],
+      "original_language": "th",
+      "original_title": "เส้นตาย สายลวง",
+      "overview": "Three women fall prey to a ruthless phone scam. To settle the score, they'll take on the criminal network that stole their money — and their dignity.",
+      "popularity": 46.6399,
+      "poster_path": "/q3ROA6OqVA9rWSsC2DzdkPQvxWW.jpg",
+      "production_companies": [
+        {
+          "id": 10145,
+          "logo_path": null,
+          "name": "Song Sound Production",
+          "origin_country": "TH"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "TH",
+          "name": "Thailand"
+        }
+      ],
+      "release_date": "2026-03-22",
+      "revenue": 0,
+      "runtime": 135,
+      "spoken_languages": [
+        {
+          "english_name": "Thai",
+          "iso_639_1": "th",
+          "name": "ภาษาไทย"
+        }
+      ],
+      "status": "Released",
+      "tagline": "When the victim becomes the hunter. When the law fails it's time to reclaim.",
+      "title": "The Red Line",
+      "video": false,
+      "vote_average": 7.214,
+      "vote_count": 7
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 1198994,
+      "adult": false,
+      "backdrop_path": "/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
+      "belongs_to_collection": null,
+      "budget": 40000000,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "https://www.20thcenturystudios.com/movies/send-help",
+      "id": "3rXvziHtfbg",
+      "imdb_id": "tt8036976",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Send Help",
+      "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "popularity": 234.9747,
+      "poster_path": "/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+      "production_companies": [
+        {
+          "id": 122323,
+          "logo_path": "/gWiaDcDxt0AkSE9hxsUn5naFGRT.png",
+          "name": "Raimi Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 127928,
+          "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+          "name": "20th Century Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 22213,
+          "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+          "name": "TSG Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2026-01-22",
+      "revenue": 93904781,
+      "runtime": 113,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Meet Linda Liddle... She's from strategy and planning. She's the boss now.",
+      "title": "Send Help",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 606
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 1297842,
+      "adult": false,
+      "backdrop_path": "/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "belongs_to_collection": null,
+      "budget": 90000000,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        }
+      ],
+      "homepage": "https://goat.movie",
+      "id": "_3CFCvgxwxg",
+      "imdb_id": "tt27613895",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "GOAT",
+      "overview": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+      "popularity": 218.8577,
+      "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "production_companies": [
+        {
+          "id": 2251,
+          "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+          "name": "Sony Pictures Animation",
+          "origin_country": "US"
+        },
+        {
+          "id": 120524,
+          "logo_path": "/6G31NBE33avSwnSw9OGiFhCOpkS.png",
+          "name": "Unanimous Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 184287,
+          "logo_path": "/yH5Zbs5SaOiXCazdQwrt00vK9Pj.png",
+          "name": "Modern Magic",
+          "origin_country": "US"
+        },
+        {
+          "id": 5,
+          "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+          "name": "Columbia Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 79426,
+          "logo_path": "/8aEC7xem9YwHNCDojSFEPQgoFC3.png",
+          "name": "MACRO",
+          "origin_country": "US"
+        },
+        {
+          "id": 22213,
+          "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+          "name": "TSG Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2026-02-11",
+      "revenue": 174435737,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "You're never too small to dream big.",
+      "title": "GOAT",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 178
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 1115544,
+      "adult": false,
+      "backdrop_path": "/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
+      "id": "1mzcHt6-BTs",
+      "title": "Mike & Nick & Nick & Alice",
+      "original_title": "Mike & Nick & Nick & Alice",
+      "overview": "Two gangsters and the woman they love try to survive the most dangerous night of their lives. As if that wasn’t enough, there’s one wild ingredient added to the mix: a time machine.",
+      "poster_path": "/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        28,
+        35,
+        878,
+        80
+      ],
+      "popularity": 358.5571,
+      "release_date": "2026-03-14",
+      "video": false,
+      "vote_average": 6.871,
+      "vote_count": 35
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 687163,
+      "adult": false,
+      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "belongs_to_collection": null,
+      "budget": 200000000,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "homepage": "https://www.amazon.com/salp/projecthailmary?hhf",
+      "id": "fma0MvEeCow",
+      "imdb_id": "tt12042730",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Project Hail Mary",
+      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction… but an unexpected friendship means he may not have to do it alone.",
+      "popularity": 298.5383,
+      "poster_path": "/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+      "production_companies": [
+        {
+          "id": 77973,
+          "logo_path": "/eUZ0kfE4uyO0JYIrjgUSOqWPqjK.png",
+          "name": "Lord Miller",
+          "origin_country": "US"
+        },
+        {
+          "id": 210099,
+          "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+          "name": "Amazon MGM Studios",
+          "origin_country": "US"
+        },
+        {
+          "id": 84041,
+          "logo_path": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+          "name": "Pascal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 232193,
+          "logo_path": null,
+          "name": "Open Invite Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 22842,
+          "logo_path": "/buyfiDYTfPVTHxvYZ4yHu69zFPs.png",
+          "name": "Waypoint Entertainment",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2026-03-15",
+      "revenue": 223200000,
+      "runtime": 157,
+      "spoken_languages": [
+        {
+          "english_name": "Mandarin",
+          "iso_639_1": "zh",
+          "name": "普通话"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "Russian",
+          "iso_639_1": "ru",
+          "name": "Pусский"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Believe in the Hail Mary.",
+      "title": "Project Hail Mary",
+      "video": false,
+      "vote_average": 8.163,
+      "vote_count": 627
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 13579,
+      "adult": false,
+      "backdrop_path": "/1xWY8gN8fTpiunMIKjCJAGOR4zJ.jpg",
+      "belongs_to_collection": null,
+      "budget": 23000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "",
+      "id": "4U4P4k-Fulw",
+      "imdb_id": "tt1091751",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Longshots",
+      "overview": "The true story of Jasmine Plummer who, at the age of eleven, became the first female to play in Pop Warner football tournament in its 56-year history.",
+      "popularity": 1.8222,
+      "poster_path": "/mrejNUR8giaAYIJkaLztELRrVXe.jpg",
+      "production_companies": [
+        {
+          "id": 2780,
+          "logo_path": "/hgdyY2exOpOXG3EkQR8WsUAUNBZ.png",
+          "name": "Cube Vision",
+          "origin_country": "US"
+        },
+        {
+          "id": 7405,
+          "logo_path": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+          "name": "Dimension Films",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2008-08-22",
+      "revenue": 11767866,
+      "runtime": 94,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The new coach has a secret weapon.",
+      "title": "The Longshots",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 74
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 316004,
+      "adult": false,
+      "backdrop_path": "/sfGtX5zvQAqiGyyU5KGBzDM6Ix3.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": "fvj3SqGSdpw",
+      "original_language": "en",
+      "original_title": "Air",
+      "overview": "A scuba diver surfaces to a world with no breathable air, and must fight to get back to her family, and her son, before her tanks run out.",
+      "popularity": 0.3182,
+      "poster_path": "/v0rO8OUO9bF9tRnyTEqPOIUcQ7k.jpg",
+      "release_date": "2014-06-05",
+      "title": "Air",
+      "video": false,
+      "vote_average": 1.8,
+      "vote_count": 2
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 565911,
+      "adult": false,
+      "backdrop_path": "/gHqi3bDJtXF1gEneXh5xriNleGH.jpg",
+      "genre_ids": [
+        10402
+      ],
+      "id": "KTWpUWwS2qs",
+      "original_language": "it",
+      "original_title": "Attila",
+      "overview": "First staged at the Teatro La Fenice in 1846, Verdi’s ninth opera, Attila, returns to the stage of La Scala on December 7th. Following the inauguration of the 2015-2016 Season with Giovanna d’Arco and in anticipation of Macbeth, with Attila Musical Director Riccardo Chailly continues his study of Verdi’s early works, renewing a successful collaboration with creative director Davide Livermore that began with his acclaimed production of Donizetti’s Don Pasquale for La Scala. In this complex opera Verdi experiments with fresh perspectives, featuring spectacular historical settings, introspective angles and moral uncertainties. Attila demands of its performers not only passion and confidence, but also the ability to find subtle accents and psychological nuances.",
+      "popularity": 50.9976,
+      "poster_path": "/oRoULQnyJldHFdM8aoVhC2AAec7.jpg",
+      "release_date": "2018-12-07",
+      "title": "Attila",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "movieId": 83533,
+      "adult": false,
+      "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+      "id": "NbKEflAq41g",
+      "title": "Avatar: Fire and Ash",
+      "original_title": "Avatar: Fire and Ash",
+      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ],
+      "popularity": 307.5829,
+      "release_date": "2025-12-17",
+      "video": false,
+      "vote_average": 7.258,
+      "vote_count": 1961
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 840464,
+      "adult": false,
+      "backdrop_path": "/wns4x1GyxCudgOZRyhXKjXVJf3T.jpg",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ],
+      "id": "ThbZPUKSBJ0",
+      "original_language": "en",
+      "original_title": "Greenland 2: Migration",
+      "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
+      "popularity": 201.1124,
+      "poster_path": "/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+      "release_date": "2026-01-07",
+      "title": "Greenland 2: Migration",
+      "video": false,
+      "vote_average": 6.455,
+      "vote_count": 737
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 83533,
+      "adult": false,
+      "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+      "id": "lH1AhPAzrzQ",
+      "title": "Avatar: Fire and Ash",
+      "original_title": "Avatar: Fire and Ash",
+      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ],
+      "popularity": 397.7548,
+      "release_date": "2025-12-17",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 1964
+    },
+    {
+      "userId": "lqx-CsmgfpE",
+      "movieId": 83533,
+      "adult": false,
+      "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+      "id": "4gUmmpzSbto",
+      "title": "Avatar: Fire and Ash",
+      "original_title": "Avatar: Fire and Ash",
+      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ],
+      "popularity": 544.8659,
+      "release_date": "2025-12-17",
+      "video": false,
+      "vote_average": 7.349,
+      "vote_count": 2273
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 1084577,
+      "adult": false,
+      "backdrop_path": "/A7ZqgfKdbh4SUfD6delRYbPaiD1.jpg",
+      "id": "6enOQB6I37o",
+      "title": "Balls Up",
+      "original_title": "Balls Up",
+      "overview": "Two marketing executives go \"balls out\" and pitch a bold full‑coverage condom sponsorship with the World Cup. After their drunken celebration in Brazil sparks a global scandal, they must outrun furious fans, criminals, and power-hungry officials to salvage their careers and make it home alive.",
+      "poster_path": "/xwvJ3WzdJ1OCuDoY8LAxBUlQyig.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "popularity": 5.7566,
+      "release_date": "2026-04-15",
+      "video": false,
+      "vote_average": 6.643,
+      "vote_count": 7
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "movieId": 9327,
+      "adult": false,
+      "backdrop_path": "/gHFuLHxruielBcMEZx1WowxbRWS.jpg",
+      "belongs_to_collection": {
+        "id": 86028,
+        "name": "The Nutty Professor Collection",
+        "poster_path": "/a6zC38ID7EyAflo8tsPDP4IE0Mt.jpg",
+        "backdrop_path": "/mW1NQFOSCwwgk03SpcpwiQEL2Lo.jpg"
+      },
+      "budget": 54000000,
+      "genres": [
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://www.uphe.com/movies/the-nutty-professor",
+      "id": "z2OqLw9ttXw",
+      "imdb_id": "tt0117218",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "The Nutty Professor",
+      "overview": "When beautiful Carla Purty joins the university faculty, genetic professor Dr. Sherman Klump grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up, plumped down Don Juan.",
+      "popularity": 3.983,
+      "poster_path": "/fMtb5aZoLRNbMnCkatFsTmPRfl5.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 23,
+          "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+          "name": "Imagine Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 30,
+          "logo_path": null,
+          "name": "Eddie Murphy Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "1996-06-28",
+      "revenue": 128769345,
+      "runtime": 95,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Inside Sherman Klump, a party animal is about to break out.",
+      "title": "The Nutty Professor",
+      "video": false,
+      "vote_average": 5.639,
+      "vote_count": 3079
+    }
+  ],
+  "watchlists": [
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "family",
+      "movies": [],
+      "id": "iELbvpc0QQ0"
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "TopGun",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+          "belongs_to_collection": {
+            "id": 87096,
+            "name": "Avatar Collection",
+            "poster_path": "/3C5brXxnBxfkeKWwA1Fh4xvy4wr.jpg",
+            "backdrop_path": "/6qkJLRCZp9Y3ovXti5tSuhH0DpO.jpg"
+          },
+          "budget": 350000000,
+          "genres": [
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            },
+            {
+              "id": 12,
+              "name": "Adventure"
+            },
+            {
+              "id": 14,
+              "name": "Fantasy"
+            }
+          ],
+          "homepage": "https://www.avatar.com/movies/avatar-fire-and-ash",
+          "id": 83533,
+          "imdb_id": "tt1757678",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Avatar: Fire and Ash",
+          "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+          "popularity": 307.5829,
+          "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+          "production_companies": [
+            {
+              "id": 127928,
+              "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+              "name": "20th Century Studios",
+              "origin_country": "US"
+            },
+            {
+              "id": 574,
+              "logo_path": "/8wdmrfGcDx3TJxYiiDksLzAW4pB.png",
+              "name": "Lightstorm Entertainment",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2025-12-17",
+          "revenue": 1482195377,
+          "runtime": 198,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "The world of Pandora will change forever.",
+          "title": "Avatar: Fire and Ash",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 1953
+        }
+      ],
+      "id": "4Btg4IU-1Lk"
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "KC",
+      "movies": [],
+      "id": "U-XJ3gKoZzY"
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "name": "family",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
+          "belongs_to_collection": null,
+          "budget": 40000000,
+          "genres": [
+            {
+              "id": 27,
+              "name": "Horror"
+            },
+            {
+              "id": 53,
+              "name": "Thriller"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            }
+          ],
+          "homepage": "https://www.20thcenturystudios.com/movies/send-help",
+          "id": 1198994,
+          "imdb_id": "tt8036976",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Send Help",
+          "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+          "popularity": 270.5926,
+          "poster_path": "/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+          "production_companies": [
+            {
+              "id": 122323,
+              "logo_path": "/gWiaDcDxt0AkSE9hxsUn5naFGRT.png",
+              "name": "Raimi Productions",
+              "origin_country": "US"
+            },
+            {
+              "id": 127928,
+              "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+              "name": "20th Century Studios",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-01-22",
+          "revenue": 93904781,
+          "runtime": 113,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Meet Linda Liddle... She's from strategy and planning. She's the boss now.",
+          "title": "Send Help",
+          "video": false,
+          "vote_average": 7.062,
+          "vote_count": 652
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+          "belongs_to_collection": null,
+          "budget": 90000000,
+          "genres": [
+            {
+              "id": 16,
+              "name": "Animation"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 10751,
+              "name": "Family"
+            }
+          ],
+          "homepage": "https://goat.movie",
+          "id": 1297842,
+          "imdb_id": "tt27613895",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "GOAT",
+          "overview": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+          "popularity": 267.6634,
+          "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+          "production_companies": [
+            {
+              "id": 2251,
+              "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+              "name": "Sony Pictures Animation",
+              "origin_country": "US"
+            },
+            {
+              "id": 120524,
+              "logo_path": "/6G31NBE33avSwnSw9OGiFhCOpkS.png",
+              "name": "Unanimous Media",
+              "origin_country": "US"
+            },
+            {
+              "id": 184287,
+              "logo_path": "/yH5Zbs5SaOiXCazdQwrt00vK9Pj.png",
+              "name": "Modern Magic",
+              "origin_country": "US"
+            },
+            {
+              "id": 5,
+              "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+              "name": "Columbia Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 79426,
+              "logo_path": "/8aEC7xem9YwHNCDojSFEPQgoFC3.png",
+              "name": "MACRO",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-02-11",
+          "revenue": 174435737,
+          "runtime": 100,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "You're never too small to dream big.",
+          "title": "GOAT",
+          "video": false,
+          "vote_average": 7.721,
+          "vote_count": 188
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/aWtkX6vtv774wxEw2cAUdv93feC.jpg",
+          "belongs_to_collection": null,
+          "budget": 10,
+          "genres": [
+            {
+              "id": 27,
+              "name": "Horror"
+            },
+            {
+              "id": 28,
+              "name": "Action"
+            },
+            {
+              "id": 53,
+              "name": "Thriller"
+            }
+          ],
+          "homepage": "",
+          "id": 1311556,
+          "imdb_id": null,
+          "origin_country": [
+            "MX"
+          ],
+          "original_language": "en",
+          "original_title": "The Blacky",
+          "overview": "",
+          "popularity": 0.1749,
+          "poster_path": "/y1hKrS5Tpl6ClWvzdeeKPcWJton.jpg",
+          "production_companies": [
+            {
+              "id": 232763,
+              "logo_path": null,
+              "name": "mrdacmatevisualentertainment",
+              "origin_country": ""
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "MX",
+              "name": "Mexico"
+            }
+          ],
+          "release_date": "2022-12-31",
+          "revenue": 20,
+          "runtime": 0,
+          "spoken_languages": [
+            {
+              "english_name": "Spanish",
+              "iso_639_1": "es",
+              "name": "Español"
+            }
+          ],
+          "status": "Released",
+          "tagline": "",
+          "title": "The Blacky",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6GuqUJ33BnWDAoVPZP55gDr5G55.jpg",
+          "belongs_to_collection": null,
+          "budget": 0,
+          "genres": [
+            {
+              "id": 28,
+              "name": "Action"
+            },
+            {
+              "id": 53,
+              "name": "Thriller"
+            },
+            {
+              "id": 27,
+              "name": "Horror"
+            }
+          ],
+          "homepage": "https://www.amazon.com/dp/B0GPFBRJBQ",
+          "id": 1084187,
+          "imdb_id": "tt26678938",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Pretty Lethal",
+          "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
+          "popularity": 308.4196,
+          "poster_path": "/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
+          "production_companies": [
+            {
+              "id": 121470,
+              "logo_path": "/zvJFu1C6gB80A98n6IGXBvMtgVl.png",
+              "name": "87North Productions",
+              "origin_country": "US"
+            },
+            {
+              "id": 20788,
+              "logo_path": "/7hBlD2RPUo6LHgSDSSnyYuXdigU.png",
+              "name": "GulfStream Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 74933,
+              "logo_path": null,
+              "name": "Pioneer Stillking",
+              "origin_country": "HU"
+            },
+            {
+              "id": 210099,
+              "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+              "name": "Amazon MGM Studios",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            },
+            {
+              "iso_3166_1": "HU",
+              "name": "Hungary"
+            }
+          ],
+          "release_date": "2026-03-13",
+          "revenue": 0,
+          "runtime": 88,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            },
+            {
+              "english_name": "Hungarian",
+              "iso_639_1": "hu",
+              "name": "Magyar"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Blood, sweat and tutus.",
+          "title": "Pretty Lethal",
+          "video": false,
+          "vote_average": 6.784,
+          "vote_count": 97
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hz7TdCrpLLt2Dz7S3PS2HG9rpAO.jpg",
+          "belongs_to_collection": {
+            "id": 2602,
+            "name": "Scream Collection",
+            "poster_path": "/p3EjClFy20jjT0u06dzBs4lvvhi.jpg",
+            "backdrop_path": "/fG6GzZAwtsW3v2mhB4EyQLMRjUV.jpg"
+          },
+          "budget": 45000000,
+          "genres": [
+            {
+              "id": 27,
+              "name": "Horror"
+            },
+            {
+              "id": 9648,
+              "name": "Mystery"
+            },
+            {
+              "id": 80,
+              "name": "Crime"
+            }
+          ],
+          "homepage": "http://www.screammovie.com",
+          "id": 1159559,
+          "imdb_id": "tt27047903",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Scream 7",
+          "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
+          "popularity": 262.941,
+          "poster_path": "/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+          "production_companies": [
+            {
+              "id": 4,
+              "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
+              "name": "Paramount Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 143790,
+              "logo_path": "/wo1smiXdiwwxai2dwJlRiGwE7rS.png",
+              "name": "Spyglass Media Group",
+              "origin_country": "US"
+            },
+            {
+              "id": 130448,
+              "logo_path": "/yHWTTGKbOGZKUd1cp6l3uLyDeiv.png",
+              "name": "Project X Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-02-25",
+          "revenue": 194699963,
+          "runtime": 114,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Burn it all down.",
+          "title": "Scream 7",
+          "video": false,
+          "vote_average": 5.795,
+          "vote_count": 481
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
+          "belongs_to_collection": {
+            "id": 1434561,
+            "name": "The Super Mario Collection",
+            "poster_path": "/8wVpJ4DCEVP6Ima1MgKgymZbYcz.jpg",
+            "backdrop_path": "/hX6DycbhqpkHuYD5ia4YeQQ2RgV.jpg"
+          },
+          "budget": 0,
+          "genres": [
+            {
+              "id": 10751,
+              "name": "Family"
+            },
+            {
+              "id": 14,
+              "name": "Fantasy"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 12,
+              "name": "Adventure"
+            },
+            {
+              "id": 16,
+              "name": "Animation"
+            }
+          ],
+          "homepage": "https://www.thesupermariogalaxymovie.com",
+          "id": 1226863,
+          "imdb_id": "tt28650488",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "The Super Mario Galaxy Movie",
+          "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+          "popularity": 57.7658,
+          "poster_path": "/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+          "production_companies": [
+            {
+              "id": 6704,
+              "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+              "name": "Illumination",
+              "origin_country": "US"
+            },
+            {
+              "id": 33,
+              "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+              "name": "Universal Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 12288,
+              "logo_path": "/e4dQAqZD374H5EuM0W1ljEBWTKy.png",
+              "name": "Nintendo",
+              "origin_country": "JP"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "JP",
+              "name": "Japan"
+            },
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-04-01",
+          "revenue": 0,
+          "runtime": 98,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "The galaxy awaits.",
+          "title": "The Super Mario Galaxy Movie",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 4
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+          "belongs_to_collection": null,
+          "budget": 150000000,
+          "genres": [
+            {
+              "id": 16,
+              "name": "Animation"
+            },
+            {
+              "id": 10751,
+              "name": "Family"
+            },
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 12,
+              "name": "Adventure"
+            }
+          ],
+          "homepage": "https://www.pixar.com/hoppers",
+          "id": 1327819,
+          "imdb_id": "tt26443616",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Hoppers",
+          "overview": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
+          "popularity": 121.7418,
+          "poster_path": "/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+          "production_companies": [
+            {
+              "id": 3,
+              "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+              "name": "Pixar",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-03-04",
+          "revenue": 248558236,
+          "runtime": 105,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            },
+            {
+              "english_name": "Spanish",
+              "iso_639_1": "es",
+              "name": "Español"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Act natural.",
+          "title": "Hoppers",
+          "video": false,
+          "vote_average": 7.563,
+          "vote_count": 327
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1xWY8gN8fTpiunMIKjCJAGOR4zJ.jpg",
+          "belongs_to_collection": null,
+          "budget": 23000000,
+          "genres": [
+            {
+              "id": 18,
+              "name": "Drama"
+            },
+            {
+              "id": 10751,
+              "name": "Family"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            }
+          ],
+          "homepage": "",
+          "id": 13579,
+          "imdb_id": "tt1091751",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "The Longshots",
+          "overview": "The true story of Jasmine Plummer who, at the age of eleven, became the first female to play in Pop Warner football tournament in its 56-year history.",
+          "popularity": 1.8222,
+          "poster_path": "/mrejNUR8giaAYIJkaLztELRrVXe.jpg",
+          "production_companies": [
+            {
+              "id": 2780,
+              "logo_path": "/hgdyY2exOpOXG3EkQR8WsUAUNBZ.png",
+              "name": "Cube Vision",
+              "origin_country": "US"
+            },
+            {
+              "id": 7405,
+              "logo_path": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+              "name": "Dimension Films",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2008-08-22",
+          "revenue": 11767866,
+          "runtime": 94,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "The new coach has a secret weapon.",
+          "title": "The Longshots",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 74
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jRsjWwZzI39bTm44FNhRtiICd9k.jpg",
+          "belongs_to_collection": null,
+          "budget": 0,
+          "genres": [
+            {
+              "id": 28,
+              "name": "Action"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            }
+          ],
+          "homepage": "https://www.amazon.com/dp/B0GRCS8C45",
+          "id": 1084577,
+          "imdb_id": "tt26735622",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Balls Up",
+          "overview": "Two marketing executives go \"balls out\" and pitch a bold full‑coverage condom sponsorship with the World Cup. After their drunken celebration in Brazil sparks a global scandal, they must outrun furious fans, criminals, and power-hungry officials to salvage their careers and make it home alive.",
+          "popularity": 5.7566,
+          "poster_path": "/xwvJ3WzdJ1OCuDoY8LAxBUlQyig.jpg",
+          "production_companies": [
+            {
+              "id": 82819,
+              "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+              "name": "Skydance Media",
+              "origin_country": "US"
+            },
+            {
+              "id": 114336,
+              "logo_path": null,
+              "name": "Reese Wernick Productions",
+              "origin_country": "US"
+            },
+            {
+              "id": 210099,
+              "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+              "name": "Amazon MGM Studios",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-04-15",
+          "revenue": 0,
+          "runtime": 104,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "",
+          "title": "Balls Up",
+          "video": false,
+          "vote_average": 5.6,
+          "vote_count": 3
+        }
+      ],
+      "id": "NbdnrUorVas"
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "name": "kids",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+          "belongs_to_collection": null,
+          "budget": 90000000,
+          "genres": [
+            {
+              "id": 16,
+              "name": "Animation"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 10751,
+              "name": "Family"
+            }
+          ],
+          "homepage": "https://goat.movie",
+          "id": 1297842,
+          "imdb_id": "tt27613895",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "GOAT",
+          "overview": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+          "popularity": 218.8577,
+          "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+          "production_companies": [
+            {
+              "id": 2251,
+              "logo_path": "/5ilV5mH3gxTEU7p5wjxptHvXkyr.png",
+              "name": "Sony Pictures Animation",
+              "origin_country": "US"
+            },
+            {
+              "id": 120524,
+              "logo_path": "/6G31NBE33avSwnSw9OGiFhCOpkS.png",
+              "name": "Unanimous Media",
+              "origin_country": "US"
+            },
+            {
+              "id": 184287,
+              "logo_path": "/yH5Zbs5SaOiXCazdQwrt00vK9Pj.png",
+              "name": "Modern Magic",
+              "origin_country": "US"
+            },
+            {
+              "id": 5,
+              "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+              "name": "Columbia Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 79426,
+              "logo_path": "/8aEC7xem9YwHNCDojSFEPQgoFC3.png",
+              "name": "MACRO",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-02-11",
+          "revenue": 174435737,
+          "runtime": 100,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "You're never too small to dream big.",
+          "title": "GOAT",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 178
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gCmfeKmEAZBP5gcXpiqb0gii9rS.jpg",
+          "belongs_to_collection": null,
+          "budget": 40000000,
+          "genres": [
+            {
+              "id": 27,
+              "name": "Horror"
+            },
+            {
+              "id": 53,
+              "name": "Thriller"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            }
+          ],
+          "homepage": "https://www.20thcenturystudios.com/movies/send-help",
+          "id": 1198994,
+          "imdb_id": "tt8036976",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Send Help",
+          "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+          "popularity": 270.5926,
+          "poster_path": "/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+          "production_companies": [
+            {
+              "id": 122323,
+              "logo_path": "/gWiaDcDxt0AkSE9hxsUn5naFGRT.png",
+              "name": "Raimi Productions",
+              "origin_country": "US"
+            },
+            {
+              "id": 127928,
+              "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+              "name": "20th Century Studios",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-01-22",
+          "revenue": 93904781,
+          "runtime": 113,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Meet Linda Liddle... She's from strategy and planning. She's the boss now.",
+          "title": "Send Help",
+          "video": false,
+          "vote_average": 7.062,
+          "vote_count": 652
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1cxZKHxgNUcKmEdR5H5lhHrjIU.jpg",
+          "belongs_to_collection": {
+            "id": 135441,
+            "name": "Road to... Collection",
+            "poster_path": "/jRRsXfxKpbV6Po4jTfXQTZZX7Yd.jpg",
+            "backdrop_path": "/mtC7UKAlECH3NlABg8mzmDqZi0F.jpg"
+          },
+          "budget": 0,
+          "genres": [
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 10402,
+              "name": "Music"
+            },
+            {
+              "id": 10749,
+              "name": "Romance"
+            }
+          ],
+          "homepage": "",
+          "id": 13861,
+          "imdb_id": "tt0032993",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Road to Singapore",
+          "overview": "Two playboys try to forget previous romances in Singapore – until they meet a beautiful dancer.",
+          "popularity": 1.5139,
+          "poster_path": "/jlIR7N9SHTIma89uJ8y8Ze40zOW.jpg",
+          "production_companies": [
+            {
+              "id": 4,
+              "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
+              "name": "Paramount Pictures",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "1940-03-22",
+          "revenue": 3200000,
+          "runtime": 85,
+          "spoken_languages": [
+            {
+              "english_name": "Esperanto",
+              "iso_639_1": "eo",
+              "name": "Esperanto"
+            },
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Ready For Fun . . Fight . . or a South Seas Romance . . . ! They find them all on the . . .",
+          "title": "Road to Singapore",
+          "video": false,
+          "vote_average": 6.466,
+          "vote_count": 45
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wns4x1GyxCudgOZRyhXKjXVJf3T.jpg",
+          "belongs_to_collection": {
+            "id": 840465,
+            "name": "Greenland Collection",
+            "poster_path": "/3Hj9iNJOMBUz4foX9D82wzY39sa.jpg",
+            "backdrop_path": "/mW6OyjfXMwXmZj139h4szPcmDyc.jpg"
+          },
+          "budget": 90000000,
+          "genres": [
+            {
+              "id": 12,
+              "name": "Adventure"
+            },
+            {
+              "id": 53,
+              "name": "Thriller"
+            },
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            }
+          ],
+          "homepage": "https://www.greenland2.movie",
+          "id": 840464,
+          "imdb_id": "tt14850054",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Greenland 2: Migration",
+          "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
+          "popularity": 201.1124,
+          "poster_path": "/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+          "production_companies": [
+            {
+              "id": 1632,
+              "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+              "name": "Lionsgate",
+              "origin_country": "US"
+            },
+            {
+              "id": 47729,
+              "logo_path": "/bAxh897TGgdR0Py6wdd0UuE147Z.png",
+              "name": "STXfilms",
+              "origin_country": "US"
+            },
+            {
+              "id": 138743,
+              "logo_path": "/abFJGmtPFs6Bq5cBavmrnXDcpf8.png",
+              "name": "Anton",
+              "origin_country": "GB"
+            },
+            {
+              "id": 3528,
+              "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+              "name": "Thunder Road",
+              "origin_country": "US"
+            },
+            {
+              "id": 103331,
+              "logo_path": "/nxkmGpo1Ym74DkBzNtoMz5cl6DJ.png",
+              "name": "G-BASE",
+              "origin_country": "US"
+            },
+            {
+              "id": 253186,
+              "logo_path": null,
+              "name": "CineMachine",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "GB",
+              "name": "United Kingdom"
+            },
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-01-07",
+          "revenue": 44579387,
+          "runtime": 98,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            },
+            {
+              "english_name": "French",
+              "iso_639_1": "fr",
+              "name": "Français"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Hope is uncharted territory.",
+          "title": "Greenland 2: Migration",
+          "video": false,
+          "vote_average": 6.464,
+          "vote_count": 731
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/gHFuLHxruielBcMEZx1WowxbRWS.jpg",
+          "belongs_to_collection": {
+            "id": 86028,
+            "name": "The Nutty Professor Collection",
+            "poster_path": "/a6zC38ID7EyAflo8tsPDP4IE0Mt.jpg",
+            "backdrop_path": "/mW1NQFOSCwwgk03SpcpwiQEL2Lo.jpg"
+          },
+          "budget": 54000000,
+          "genres": [
+            {
+              "id": 14,
+              "name": "Fantasy"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 10749,
+              "name": "Romance"
+            },
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            }
+          ],
+          "homepage": "https://www.uphe.com/movies/the-nutty-professor",
+          "id": 9327,
+          "imdb_id": "tt0117218",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "The Nutty Professor",
+          "overview": "When beautiful Carla Purty joins the university faculty, genetic professor Dr. Sherman Klump grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up, plumped down Don Juan.",
+          "popularity": 3.983,
+          "poster_path": "/fMtb5aZoLRNbMnCkatFsTmPRfl5.jpg",
+          "production_companies": [
+            {
+              "id": 33,
+              "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+              "name": "Universal Pictures",
+              "origin_country": "US"
+            },
+            {
+              "id": 23,
+              "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+              "name": "Imagine Entertainment",
+              "origin_country": "US"
+            },
+            {
+              "id": 30,
+              "logo_path": null,
+              "name": "Eddie Murphy Productions",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "1996-06-28",
+          "revenue": 128769345,
+          "runtime": 95,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Inside Sherman Klump, a party animal is about to break out.",
+          "title": "The Nutty Professor",
+          "video": false,
+          "vote_average": 5.639,
+          "vote_count": 3079
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/qOxSzq4bAbsqCUjP9Na4PTCDAZe.jpg",
+          "belongs_to_collection": {
+            "id": 937,
+            "name": "The Pink Panther (Original) Collection",
+            "poster_path": "/gRRe7HgwpeJ2UmedbStyDKC586U.jpg",
+            "backdrop_path": "/eVHH8peqVMN9VcEZvn9yTG6SDed.jpg"
+          },
+          "budget": 12000000,
+          "genres": [
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 80,
+              "name": "Crime"
+            },
+            {
+              "id": 9648,
+              "name": "Mystery"
+            }
+          ],
+          "homepage": "",
+          "id": 6081,
+          "imdb_id": "tt0078163",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Revenge of the Pink Panther",
+          "overview": "Chief Inspector Jacques Clouseau is dead. At least that is what the world—and Charles Dreyfus—believe when a dead body is discovered in Clouseau's car after being shot off the road. Naturally, Clouseau knows differently and, taking advantage of not being alive, sets out to discover why an attempt was made on his life.",
+          "popularity": 2.4449,
+          "poster_path": "/pvFiI8Kkq6JIf9uxDUU5FEvet7f.jpg",
+          "production_companies": [
+            {
+              "id": 60,
+              "logo_path": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+              "name": "United Artists",
+              "origin_country": "US"
+            },
+            {
+              "id": 10257,
+              "logo_path": null,
+              "name": "Jewel Productions",
+              "origin_country": "US"
+            },
+            {
+              "id": 23537,
+              "logo_path": null,
+              "name": "Sellers-Edwards productions",
+              "origin_country": ""
+            },
+            {
+              "id": 10258,
+              "logo_path": null,
+              "name": "Pimlico Films",
+              "origin_country": ""
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "GB",
+              "name": "United Kingdom"
+            },
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "1978-01-08",
+          "revenue": 49579269,
+          "runtime": 99,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Just when you thought it was safe to go back to the movies.",
+          "title": "Revenge of the Pink Panther",
+          "video": false,
+          "vote_average": 6.425,
+          "vote_count": 468
+        }
+      ],
+      "id": "i6XjOljChCQ"
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "name": "Fyah",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+          "belongs_to_collection": {
+            "id": 87096,
+            "name": "Avatar Collection",
+            "poster_path": "/3C5brXxnBxfkeKWwA1Fh4xvy4wr.jpg",
+            "backdrop_path": "/6qkJLRCZp9Y3ovXti5tSuhH0DpO.jpg"
+          },
+          "budget": 350000000,
+          "genres": [
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            },
+            {
+              "id": 12,
+              "name": "Adventure"
+            },
+            {
+              "id": 14,
+              "name": "Fantasy"
+            }
+          ],
+          "homepage": "https://www.avatar.com/movies/avatar-fire-and-ash",
+          "id": 83533,
+          "imdb_id": "tt1757678",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Avatar: Fire and Ash",
+          "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+          "popularity": 397.7548,
+          "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+          "production_companies": [
+            {
+              "id": 127928,
+              "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+              "name": "20th Century Studios",
+              "origin_country": "US"
+            },
+            {
+              "id": 574,
+              "logo_path": "/8wdmrfGcDx3TJxYiiDksLzAW4pB.png",
+              "name": "Lightstorm Entertainment",
+              "origin_country": "US"
+            },
+            {
+              "id": 22213,
+              "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+              "name": "TSG Entertainment",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2025-12-17",
+          "revenue": 1482195377,
+          "runtime": 198,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "The world of Pandora will change forever.",
+          "title": "Avatar: Fire and Ash",
+          "video": false,
+          "vote_average": 7.256,
+          "vote_count": 1964
+        }
+      ],
+      "id": "K9dIUDdHSJ8"
+    },
+    {
+      "userId": "2I1pxhMALW0",
+      "name": "ron",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/vrjYmiCYa5ZcViMHYq73rctvtnl.jpg",
+          "belongs_to_collection": null,
+          "budget": 0,
+          "genres": [
+            {
+              "id": 10749,
+              "name": "Romance"
+            },
+            {
+              "id": 28,
+              "name": "Action"
+            },
+            {
+              "id": 18,
+              "name": "Drama"
+            }
+          ],
+          "homepage": "",
+          "id": 358996,
+          "imdb_id": "tt4467202",
+          "origin_country": [
+            "IN"
+          ],
+          "original_language": "hi",
+          "original_title": "Hero",
+          "overview": "After meeting the chief of police's pretty daughter, a gangster kidnaps the girl. During the journey they fall in love and the gangster decides to set her free.",
+          "popularity": 1.5407,
+          "poster_path": "/esBeEnXx8tSCcGF4DKwwESxsAp8.jpg",
+          "production_companies": [
+            {
+              "id": 3725,
+              "logo_path": null,
+              "name": "Mukta Arts Ltd",
+              "origin_country": "IN"
+            },
+            {
+              "id": 59294,
+              "logo_path": "/eNG6SYSrJZgXpqo1l7UwvuWio76.png",
+              "name": "Salman Khan Films",
+              "origin_country": "IN"
+            },
+            {
+              "id": 72146,
+              "logo_path": "/sQtwtEOpIdL7ux7oYoU4bdx9g5J.png",
+              "name": "Emmay Entertainment",
+              "origin_country": "IN"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "IN",
+              "name": "India"
+            }
+          ],
+          "release_date": "2015-09-11",
+          "revenue": 5000000,
+          "runtime": 145,
+          "spoken_languages": [
+            {
+              "english_name": "Hindi",
+              "iso_639_1": "hi",
+              "name": "हिन्दी"
+            }
+          ],
+          "status": "Released",
+          "tagline": "Rebels. Love. Freedom",
+          "title": "Hero",
+          "video": false,
+          "vote_average": 5.79,
+          "vote_count": 31
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
+          "belongs_to_collection": null,
+          "budget": 0,
+          "genres": [
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 878,
+              "name": "Science Fiction"
+            },
+            {
+              "id": 80,
+              "name": "Crime"
+            }
+          ],
+          "homepage": "https://www.20thcenturystudios.com/movies/mike-and-nick-and-nick-and-alice",
+          "id": 1115544,
+          "imdb_id": "tt27552099",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Mike & Nick & Nick & Alice",
+          "overview": "Two gangsters and the woman they love try to survive the most dangerous night of their lives. As if that wasn’t enough, there’s one wild ingredient added to the mix: a time machine.",
+          "popularity": 382.9232,
+          "poster_path": "/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+          "production_companies": [
+            {
+              "id": 127928,
+              "logo_path": "/h0rjX5vjW5r8yEnUBStFarjcLT4.png",
+              "name": "20th Century Studios",
+              "origin_country": "US"
+            },
+            {
+              "id": 1757,
+              "logo_path": "/fc9qw5GoTbyWGa0QcfbsZFzuMKQ.png",
+              "name": "Mad Chance",
+              "origin_country": "US"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+            }
+          ],
+          "release_date": "2026-03-14",
+          "revenue": 0,
+          "runtime": 107,
+          "spoken_languages": [
+            {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+            }
+          ],
+          "status": "Released",
+          "tagline": "A time-traveling, double-crossing, ass-kicking comedy.",
+          "title": "Mike & Nick & Nick & Alice",
+          "video": false,
+          "vote_average": 6.461,
+          "vote_count": 64
+        }
+      ],
+      "id": "PFNXYlyOzZU"
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "Tafa",
+      "movies": [
+        {
+          "adult": false,
+          "backdrop_path": "/cnEJA1Kgh53ozYlbANrUTzpLEaS.jpg",
+          "belongs_to_collection": {
+            "id": 472399,
+            "name": "Truck Rascals",
+            "poster_path": null,
+            "backdrop_path": null
+          },
+          "budget": 0,
+          "genres": [
+            {
+              "id": 28,
+              "name": "Action"
+            },
+            {
+              "id": 35,
+              "name": "Comedy"
+            },
+            {
+              "id": 10749,
+              "name": "Romance"
+            }
+          ],
+          "homepage": "",
+          "id": 343672,
+          "imdb_id": "tt0360085",
+          "origin_country": [
+            "JP"
+          ],
+          "original_language": "ja",
+          "original_title": "トラック野郎　爆走一番星",
+          "overview": "The comical adventures of two long-distance truck drivers, Momojiro and Kinzo, continue. Momojiro and Eizo help bring home the father of two young children in time to celebrate New Year’s together.",
+          "popularity": 1.8341,
+          "poster_path": "/5Csn5eZa8FglmBq7hsdLxoPB80X.jpg",
+          "production_companies": [
+            {
+              "id": 5822,
+              "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+              "name": "Toei Company",
+              "origin_country": "JP"
+            }
+          ],
+          "production_countries": [
+            {
+              "iso_3166_1": "JP",
+              "name": "Japan"
+            }
+          ],
+          "release_date": "1975-12-27",
+          "revenue": 0,
+          "runtime": 96,
+          "spoken_languages": [
+            {
+              "english_name": "Japanese",
+              "iso_639_1": "ja",
+              "name": "日本語"
+            }
+          ],
+          "status": "Released",
+          "tagline": "",
+          "title": "The Wild Trucker",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 2
+        }
+      ],
+      "id": "X3j7FzUZzuE"
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "Tawana",
+      "movies": [],
+      "id": "xFJ1ZNWKPAc"
+    },
+    {
+      "userId": "eUA-WW4SynI",
+      "name": "Racing",
+      "movies": [],
+      "id": "JLZliwplUp8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
