@@ -1,6 +1,6 @@
 # K-Flix DevOps Pipeline
 
-A CI/CD pipeline for the K-Flix movie app on AWS: every push is tested, scanned, built into a Docker image and pushed to ECR, and ArgoCD deploys it to an EKS cluster that Terraform builds and Prometheus watches. Built as a portfolio project to show end-to-end DevOps practice.
+A CI/CD pipeline for the K-Flix movie app on AWS: every push is tested, built and scanned; a manual run also builds a Docker image, pushes it to ECR and scans it, and ArgoCD deploys it to an EKS cluster that Terraform builds and Prometheus watches. Built as a portfolio project to show end-to-end DevOps practice.
 
 [![CI/CD Pipeline](https://github.com/kchimbodza/k-flix-devops-cicd-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/kchimbodza/k-flix-devops-cicd-pipeline/actions)
 
@@ -17,7 +17,7 @@ A CI/CD pipeline for the K-Flix movie app on AWS: every push is tested, scanned,
 
 <p align="center"><img src="docs/architecture.svg" width="100%" alt="Build: a push to master runs GitHub Actions: Vitest, Vite build, SonarCloud, Docker build and push to ECR tagged with the commit SHA and latest, then a Trivy scan that reports critical and high CVEs. Deploy: ArgoCD inside an EKS cluster built by Terraform watches the k8s folder in Git and syncs it with auto-sync, self-heal and prune; the k-flix pod runs nginx with a json-server sidecar, pulls its image from ECR and is exposed to the browser by a LoadBalancer. Monitor: Prometheus scrapes the cluster every 30 seconds, Grafana shows dashboard 15760, and Alertmanager sends alerts to Slack."></p>
 
-1. **Build (CI):** a push to `master` runs one GitHub Actions job: Vitest, Vite build, SonarCloud, Docker build and push to ECR, then a Trivy scan of the pushed image.
+1. **Build (CI):** a push to `master` runs one GitHub Actions job: Vitest, Vite build and SonarCloud (report only, does not block). Starting the workflow by hand (Actions tab → Run workflow) also does the Docker build and push to ECR, then a Trivy scan of the pushed image. While the cluster is torn down, this keeps AWS untouched unless I ask for it.
 2. **Deploy (CD):** ArgoCD runs inside the cluster and watches the `k8s/` folder in Git. It applies changes on its own, undoes manual changes (self-heal) and deletes what was removed from Git (prune).
 3. **Run:** one pod holds two containers: nginx serves the React build and proxies `/api/` to a json-server sidecar on `localhost:3001`. A LoadBalancer service gives it a public URL.
 4. **Monitor:** kube-prometheus-stack (Helm) adds Prometheus, Grafana and Alertmanager in a `monitoring` namespace. Alerts go to Slack `#k-flix-alerts`.
@@ -39,7 +39,7 @@ A CI/CD pipeline for the K-Flix movie app on AWS: every push is tested, scanned,
 
 | Runs | Passed | Failed | Notes |
 |---|---|---|---|
-| 7 | 4 | 3 | The first 3 failed while the repo was being assembled (see below). Every run since the SonarCloud action fix has passed, taking 4–8 min. |
+| 7 | 4 | 3 | The first 3 failed while the repo was being assembled (see below). The runs after that passed, taking 4–8 min, until the SonarCloud token expired (see below). |
 
 The same workflow was first built in [k-flix-react-app](https://github.com/kchimbodza/k-flix-react-app/actions): 10 runs, 7 passed, 3 failed while the SonarCloud and Trivy steps were set up.
 
@@ -72,6 +72,7 @@ The same workflow was first built in [k-flix-react-app](https://github.com/kchim
 | ❌ fixed | Pods stuck `Pending` | `t3.micro` hit its pod limit ("Too many pods"); larger nodes fixed it. |
 | ❌ fixed | `terraform destroy` blocked | LoadBalancers and Elastic IPs created by Kubernetes were not in Terraform state; `destroy.sh` now removes them first. |
 | ⚠️ limit | Trivy does not block | The workflow uses `exit-code: '0'`, so CRITICAL/HIGH CVEs are reported but the job still passes. Separately, `npm audit --omit=dev` (13 Nov 2026) lists 8 high and 1 moderate advisories in runtime dependencies (axios, follow-redirects, form-data, nanoid), all with fixes available. |
+| ❌ fixed | Expired SonarCloud token (Nov 2026) | Every push failed at the SonarCloud step (HTTP 403) while tests and build passed. SonarCloud is now report-only (`continue-on-error`), and the AWS steps run only on a manual run, so an expired token or AWS key can't block testing. |
 | ⚠️ limit | Image tag is not written back to Git | CI pushes `:latest` and the commit SHA but does not edit `k8s/deployment.yaml`, which uses `:latest`. Git does not change when a new image is built, so the new image reaches the cluster only when the pod is recreated. |
 | ⚠️ limit | Small test suite | 3 smoke tests check that `App` renders with every page mocked. Coverage is not sent to SonarCloud. |
 | ⚠️ limit | Data resets on restart | json-server writes to an `emptyDir` volume seeded from a ConfigMap, so users and watchlists are lost when the pod restarts. |
