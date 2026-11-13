@@ -96,21 +96,12 @@ kubectl get nodes
 # Should show 2 nodes in Ready state
 ```
 
-### 2.3 Grant IAM Access to CI/CD User
+### 2.3 CI/CD User Access (created by Terraform)
+The `kflix-cicd` access entry and its cluster-admin policy are defined in `terraform/main.tf` (`access_entries`),
+so `terraform apply` creates them. Check:
 ```bash
-aws eks create-access-entry \
-  --cluster-name k-flix-cluster \
-  --principal-arn arn:aws:iam::515310961810:user/kflix-cicd \
-  --type STANDARD || true
-
-aws eks associate-access-policy \
-  --cluster-name k-flix-cluster \
-  --principal-arn arn:aws:iam::515310961810:user/kflix-cicd \
-  --policy-arn arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy \
-  --access-scope type=cluster || true
+aws eks list-access-entries --cluster-name k-flix-cluster --region us-east-2
 ```
-
-> The `|| true` prevents the script from failing if the entry already exists from a previous session.
 
 ### 2.4 Install ArgoCD
 ```bash

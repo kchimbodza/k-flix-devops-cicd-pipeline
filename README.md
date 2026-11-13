@@ -73,10 +73,11 @@ The same workflow was first built in [k-flix-react-app](https://github.com/kchim
 | ❌ fixed | `terraform destroy` blocked | LoadBalancers and Elastic IPs created by Kubernetes were not in Terraform state; `destroy.sh` now removes them first. |
 | ⚠️ limit | Trivy does not block | The workflow uses `exit-code: '0'`, so CRITICAL/HIGH CVEs are reported but the job still passes. Separately, `npm audit --omit=dev` (13 Nov 2026) lists 8 high and 1 moderate advisories in runtime dependencies (axios, follow-redirects, form-data, nanoid), all with fixes available. |
 | ❌ fixed | Expired SonarCloud token (Nov 2026) | Every push failed at the SonarCloud step (HTTP 403) while tests and build passed. SonarCloud is now report-only (`continue-on-error`), and the AWS steps run only on a manual run, so an expired token or AWS key can't block testing. |
+| ❌ fixed | `deploy.sh` repeated Terraform with the AWS CLI | It set the node group size and created the `kflix-cicd` access entry with the AWS CLI, although `main.tf` already sets both. The scaling went against CHALLENGES #4, and the access-entry call would fail ("already exists") under `set -e` right after `terraform apply`. Both steps are removed; Terraform owns them. |
 | ⚠️ limit | Image tag is not written back to Git | CI pushes `:latest` and the commit SHA but does not edit `k8s/deployment.yaml`, which uses `:latest`. Git does not change when a new image is built, so the new image reaches the cluster only when the pod is recreated. |
 | ⚠️ limit | Small test suite | 3 smoke tests check that `App` renders with every page mocked. Coverage is not sent to SonarCloud. |
 | ⚠️ limit | Data resets on restart | json-server writes to an `emptyDir` volume seeded from a ConfigMap, so users and watchlists are lost when the pod restarts. |
-| ⚠️ drift | Docs vs code | `terraform/main.tf` sets `t3.small` nodes, while `CHALLENGES.md` #3 describes an upgrade to `t3.medium` that was not kept (now noted there; cost figures use `t3.small`). `deploy.sh` also scales the node group with the AWS CLI, which `CHALLENGES.md` (#4) says to avoid. |
+| ⚠️ drift | Docs vs code | `terraform/main.tf` sets `t3.small` nodes, while `CHALLENGES.md` #3 describes an upgrade to `t3.medium` that was not kept (now noted there; cost figures use `t3.small`). |
 
 Full write-ups of 7 issues with root cause and fix: [CHALLENGES.md](CHALLENGES.md). Step-by-step operations: [RUNBOOK.md](RUNBOOK.md).
 
