@@ -62,6 +62,8 @@ instance_types = ["t3.medium"]
 ```
 `t3.medium` supports up to 17 pods per node, sufficient for the full stack (ArgoCD + Prometheus + Grafana + Alertmanager + K-Flix).
 
+> **Note:** the committed `terraform/main.tf` uses `t3.small` (11 pods per node) with 2 nodes, not `t3.medium`; the medium upgrade was not kept in the repo. The `KubeletTooManyPods` alert in screenshot SS-20 shows the pod limit still being reached.
+
 ---
 
 ## 4. Terraform State Drift — CLI Changes Outside IaC

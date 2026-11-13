@@ -279,9 +279,11 @@ cd terraform && terraform destroy -auto-approve
 | Resource | Cost |
 |---|---|
 | EKS Control Plane | ~$0.10/hr |
-| 2x t3.medium nodes | ~$0.084/hr each |
+| 2x t3.small nodes (`main.tf`) | ~$0.021/hr each (t3.medium: ~$0.042) |
+| NAT gateway (single) | ~$0.045/hr |
+| Load balancer (K-Flix Service) | ~$0.025/hr |
 | ECR storage | ~$0.10/GB/month |
-| **Total while running** | **~$0.28/hr** |
+| **Total while running** | **~$0.21/hr** (~$0.25 with t3.medium) |
 
 **Rules:**
 - Always destroy after every session

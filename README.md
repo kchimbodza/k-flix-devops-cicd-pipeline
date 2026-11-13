@@ -11,7 +11,7 @@ A CI/CD pipeline for the K-Flix movie app on AWS: every push is tested, built an
 | **What it does** | Takes the K-Flix React app from `git push` to a running pod on Kubernetes, with tests, code analysis, image scanning, GitOps deploy, monitoring and Slack alerts |
 | **Skills shown** | CI/CD, GitOps, Infrastructure as Code, Kubernetes, container security, observability |
 | **Tech** | GitHub Actions, Vitest, SonarCloud, Docker, Trivy, AWS ECR, Terraform, AWS EKS, ArgoCD, Prometheus, Grafana, Alertmanager, Slack |
-| **Cost control** | The cluster is torn down after every session (`destroy.sh`) and rebuilt on demand (`deploy.sh`), ~$0.28/hr while running |
+| **Cost control** | The cluster is torn down after every session (`destroy.sh`) and rebuilt on demand (`deploy.sh`), ~$0.21/hr while running |
 
 ## Architecture
 
@@ -76,7 +76,7 @@ The same workflow was first built in [k-flix-react-app](https://github.com/kchim
 | ⚠️ limit | Image tag is not written back to Git | CI pushes `:latest` and the commit SHA but does not edit `k8s/deployment.yaml`, which uses `:latest`. Git does not change when a new image is built, so the new image reaches the cluster only when the pod is recreated. |
 | ⚠️ limit | Small test suite | 3 smoke tests check that `App` renders with every page mocked. Coverage is not sent to SonarCloud. |
 | ⚠️ limit | Data resets on restart | json-server writes to an `emptyDir` volume seeded from a ConfigMap, so users and watchlists are lost when the pod restarts. |
-| ⚠️ drift | Docs vs code | `terraform/main.tf` sets `t3.small` nodes, while this README's earlier text and `CHALLENGES.md` describe `t3.medium`. `deploy.sh` also scales the node group with the AWS CLI, which `CHALLENGES.md` (#4) says to avoid. |
+| ⚠️ drift | Docs vs code | `terraform/main.tf` sets `t3.small` nodes, while `CHALLENGES.md` #3 describes an upgrade to `t3.medium` that was not kept (now noted there; cost figures use `t3.small`). `deploy.sh` also scales the node group with the AWS CLI, which `CHALLENGES.md` (#4) says to avoid. |
 
 Full write-ups of 7 issues with root cause and fix: [CHALLENGES.md](CHALLENGES.md). Step-by-step operations: [RUNBOOK.md](RUNBOOK.md).
 
@@ -179,7 +179,7 @@ k-flix-devops-cicd-pipeline/
 **VPC:** custom VPC with public and private subnets across 2 AZs, one NAT gateway  
 **ECR:** `<AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/k-flix`
 
-> The cluster is torn down after every demo session and rebuilt on demand using `deploy.sh` to keep AWS costs down (~$0.28/hr while running, see [RUNBOOK.md](RUNBOOK.md)).
+> The cluster is torn down after every demo session and rebuilt on demand using `deploy.sh` to keep AWS costs down (~$0.21/hr while running, see [RUNBOOK.md](RUNBOOK.md)).
 
 ## Quick Start
 
