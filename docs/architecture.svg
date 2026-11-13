@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 456" width="960" height="456" role="img" aria-labelledby="t d">
+  <title id="t">K-Flix CI/CD pipeline</title>
+  <desc id="d">Build: a push to master runs GitHub Actions: Vitest tests, Vite build, SonarCloud analysis, Docker build and push to Amazon ECR tagged with the commit SHA and latest, then a Trivy scan for critical and high CVEs that reports but does not fail the job. Deploy: ArgoCD inside the EKS cluster watches the k8s folder in Git and syncs it with auto-sync, self-heal and prune. The k-flix pod runs nginx and a json-server sidecar, pulls its image from ECR and is exposed by a LoadBalancer service to the browser. The cluster is built by Terraform: a VPC across 2 availability zones and 1 to 3 nodes. Monitor: kube-prometheus-stack scrapes the cluster with Prometheus, shows dashboards in Grafana and sends alerts through Alertmanager to Slack.</desc>
+  <style>
+    :root { --ink:#1f2937; --sub:#57606a; --line:#d0d7de; --card:#ffffff; --on:#ea580c; --tint:#fff4ec; --group:#f6f8fa; --warn:#9a6700; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#e6edf3; --sub:#9198a1; --line:#3d444d; --card:#161b22; --on:#fb923c; --tint:#2a1d14; --group:#0d1117; --warn:#d29922; }
+    }
+    text { font-family: Inter, "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; }
+    .lane  { font-size:12px; font-weight:700; fill:var(--sub); letter-spacing:.06em; }
+    .glbl  { font-size:11px; font-weight:600; fill:var(--sub); }
+    .title { font-size:13.5px; font-weight:700; fill:var(--ink); text-anchor:middle; }
+    .sub   { font-size:10.5px; fill:var(--sub); text-anchor:middle; }
+    .warn  { font-size:10.5px; font-weight:600; fill:var(--warn); text-anchor:middle; }
+    .lbl   { font-size:10.5px; fill:var(--sub); }
+    .node  { fill:var(--card); stroke:var(--line); stroke-width:1.5; }
+    .hub   { fill:var(--tint); stroke:var(--on); stroke-width:1.5; }
+    .group { fill:var(--group); stroke:var(--line); stroke-width:1.5; stroke-dasharray:5 4; }
+    .wire  { stroke:var(--line); stroke-width:1.5; fill:none; }
+    .link  { stroke:var(--on); stroke-width:1.5; fill:none; stroke-dasharray:4 6; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset:-20; } }
+    .head  { fill:var(--line); }
+    .dot   { fill:var(--on); }
+    .t1 { animation: g1 7s infinite ease-in-out; }
+    .t2 { animation: g2 6s infinite ease-in-out; }
+    @keyframes g1 {
+      0%,5%   { transform:translateX(90px); }  14%,19% { transform:translateX(246px); }
+      28%,33% { transform:translateX(402px); } 42%,47% { transform:translateX(558px); }
+      56%,61% { transform:translateX(714px); } 70%,100%{ transform:translateX(870px); }
+    }
+    @keyframes g2 {
+      0%,6%   { transform:translateX(100px); } 18%,24% { transform:translateX(295px); }
+      36%,42% { transform:translateX(490px); } 54%,60% { transform:translateX(685px); }
+      72%,100%{ transform:translateX(880px); }
+    }
+    @media (prefers-reduced-motion: reduce) { .t1, .t2, .link { animation:none; } }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="head" d="M0 0 L10 5 L0 10z"/></marker>
+  </defs>
+
+  <!-- Lane 1: CI -->
+  <text class="lane" x="20" y="26">1 · BUILD  (GitHub Actions, every push to master)</text>
+  <g>
+    <rect class="node" x="20"  y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="90"  y="67">git push</text><text class="sub" x="90"  y="85">master branch</text>
+    <rect class="node" x="176" y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="246" y="67">Vitest</text><text class="sub" x="246" y="85">unit tests + coverage</text>
+    <rect class="node" x="332" y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="402" y="67">Vite build</text><text class="sub" x="402" y="85">production bundle</text>
+    <rect class="node" x="488" y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="558" y="67">SonarCloud</text><text class="sub" x="558" y="85">bugs, smells, hotspots</text>
+    <rect class="hub"  x="644" y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="714" y="67">Docker → ECR</text><text class="sub" x="714" y="85">tags: commit SHA + latest</text>
+    <rect class="node" x="800" y="40" width="140" height="66" rx="10"/>
+    <text class="title" x="870" y="63">Trivy scan</text><text class="sub" x="870" y="80">CRITICAL, HIGH CVEs</text>
+    <text class="warn" x="870" y="96">report only</text>
+    <path class="wire" d="M160 73 H174" marker-end="url(#a)"/>
+    <path class="wire" d="M316 73 H330" marker-end="url(#a)"/>
+    <path class="wire" d="M472 73 H486" marker-end="url(#a)"/>
+    <path class="wire" d="M628 73 H642" marker-end="url(#a)"/>
+    <path class="wire" d="M784 73 H798" marker-end="url(#a)"/>
+    <circle class="dot t1" cx="0" cy="40" r="5"/>
+  </g>
+
+  <!-- image pull link -->
+  <path class="link" d="M714 106 V146 H490 V204"/>
+  <text class="lbl" x="724" y="132">pod pulls image :latest</text>
+
+  <!-- Lane 2: CD -->
+  <text class="lane" x="20" y="166">2 · DEPLOY  (GitOps)</text>
+  <rect class="group" x="200" y="176" width="600" height="118" rx="14"/>
+  <text class="glbl" x="214" y="193">AWS EKS · k-flix-cluster · us-east-2 · built by Terraform (VPC over 2 AZs, 1–3 nodes)</text>
+  <g>
+    <rect class="node" x="20"  y="210" width="160" height="66" rx="10"/>
+    <text class="title" x="100" y="237">k8s/ in Git</text><text class="sub" x="100" y="255">manifests ArgoCD watches</text>
+    <rect class="node" x="215" y="210" width="160" height="66" rx="10"/>
+    <text class="title" x="295" y="237">ArgoCD</text><text class="sub" x="295" y="255">auto-sync · self-heal · prune</text>
+    <rect class="hub"  x="410" y="210" width="160" height="66" rx="10"/>
+    <text class="title" x="490" y="237">k-flix pod</text><text class="sub" x="490" y="255">nginx + json-server sidecar</text>
+    <rect class="node" x="605" y="210" width="160" height="66" rx="10"/>
+    <text class="title" x="685" y="237">LoadBalancer</text><text class="sub" x="685" y="255">Service, port 80</text>
+    <rect class="node" x="820" y="210" width="120" height="66" rx="10"/>
+    <text class="title" x="880" y="237">Browser</text><text class="sub" x="880" y="255">K-Flix app</text>
+    <path class="wire" d="M180 243 H213" marker-end="url(#a)"/>
+    <path class="wire" d="M375 243 H408" marker-end="url(#a)"/>
+    <path class="wire" d="M765 243 H818" marker-end="url(#a)"/>
+    <path class="wire" d="M570 243 H603" marker-end="url(#a)"/>
+    <circle class="dot t2" cx="0" cy="210" r="5"/>
+  </g>
+
+  <!-- Lane 3: monitoring -->
+  <path class="wire" d="M490 276 V346" marker-end="url(#a)"/>
+  <text class="lbl" x="500" y="324">scrapes every 30 s</text>
+  <text class="lane" x="20" y="334">3 · MONITOR  (kube-prometheus-stack)</text>
+  <g>
+    <rect class="node" x="215" y="348" width="160" height="62" rx="10"/>
+    <text class="title" x="295" y="373">Grafana</text><text class="sub" x="295" y="391">dashboard 15760</text>
+    <rect class="node" x="410" y="348" width="160" height="62" rx="10"/>
+    <text class="title" x="490" y="373">Prometheus</text><text class="sub" x="490" y="391">pod CPU, memory, nodes</text>
+    <rect class="node" x="605" y="348" width="160" height="62" rx="10"/>
+    <text class="title" x="685" y="373">Alertmanager</text><text class="sub" x="685" y="391">routes firing alerts</text>
+    <rect class="node" x="800" y="348" width="140" height="62" rx="10"/>
+    <text class="title" x="870" y="373">Slack</text><text class="sub" x="870" y="391">#k-flix-alerts</text>
+    <path class="wire" d="M410 379 H377" marker-end="url(#a)"/>
+    <path class="wire" d="M570 379 H603" marker-end="url(#a)"/>
+    <path class="wire" d="M765 379 H798" marker-end="url(#a)"/>
+  </g>
+  <text class="sub" x="480" y="440">The cluster is torn down after each session (destroy.sh) and rebuilt on demand (deploy.sh). Cluster credentials stay in the cluster: ArgoCD pulls, CI never runs kubectl.</text>
+</svg>
